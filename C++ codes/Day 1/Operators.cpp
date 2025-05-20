@@ -13,7 +13,14 @@ int main(){
     cout << "divide is :" << (a/b) <<endl;
     cout << "Module is :" << (a%b) <<endl;
 
-    
+    //Important notify
+
+    int c=4;
+    double d=3.59;
+
+    cout << "Your type is " << c <<" " << " " << d << "\n.Divide"<< (c/d) << "\n" << sizeof(c+d) << endl;
+
+
 
     return 0;
 }
