@@ -8,9 +8,9 @@ int main(){
     a++;
     cout << a << endl;
     
-    cout << a++ << endl;
+    cout << a++ /*work,update*/<< endl;
     cout << a << endl;
-    cout << ++a << endl;
+    cout << ++a /*update,work*/<< endl;
     cout << a << endl;
 
     cout <<"------"<<endl;
