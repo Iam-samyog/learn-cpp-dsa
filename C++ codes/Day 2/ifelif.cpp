@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int num;
-    cout << "Enter the Number :";
+    cout << "Enter the Grade :";
     cin >> num;
 
     if(num >= 0 ){
