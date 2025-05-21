@@ -17,7 +17,7 @@ int main(){
 
     //Logical && , ||, !
     /*&& -AND ||-OR !-NOT*/
- cout << " ! NOT" <<endl;
+    cout << " ! NOT" <<endl;
     cout << !(3==5) <<endl; //true
     cout << !0 <<endl; //false
 
