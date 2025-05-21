@@ -9,7 +9,7 @@ int main(){
     cout << "Enter alphabet:";
     cin >> ch;
 
-    if(ch>=65 && ch<97){
+    if(ch>=65 && ch<91){
         cout << "The character is in Uppercase\n";
     }
     else if(ch>=97 && ch<123 ){
