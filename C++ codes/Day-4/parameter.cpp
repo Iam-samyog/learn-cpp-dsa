@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int sum(int a,int b){//parameters
-    int s=a+b;
+double sum(double a,int b){//parameters
+    double s=a+b;
     return s;
 }
 
