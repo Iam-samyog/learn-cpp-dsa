@@ -3,8 +3,10 @@ using namespace std;
 //sum 
 int sumofDigits(int n){
     int count=0;
-    for(int i=0;i<n;i++){
+    int temp1=n;
+    while(temp1 != 0){
         count++;
+        temp1/=10;
 
     }
     int sum=0;
@@ -19,7 +21,9 @@ int sumofDigits(int n){
     return sum;
 }
 int main(){
-    int num=1234;
+    int num;
+    cout << "Enter any number:";
+    cin >> num;
 
     cout << sumofDigits(num)<<endl;
 
