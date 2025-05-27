@@ -16,8 +16,14 @@ double BinomialCoefficient(int n,int r){
 }
 
 int main(){
-    int n=10;
-    int r=5;
+    int n;
+    int r;
+
+    cout << "Enter the value of n:";
+    cin >> n;
+
+    cout << "Enter the value of r:";
+    cin >> r;
 
     cout << "Binomial Coefficent is: " << BinomialCoefficient(n,r) << endl;
 
