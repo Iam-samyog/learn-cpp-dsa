@@ -8,16 +8,20 @@ void DectoBin(int decnum){
 
     while(decnum>0){
         rem=decnum%2;
+        decnum /= 2;
         ans+=(rem*pow);
-        pow=pow*10;
-        decnum=decnum/2;
+        pow *= 10;
+        
         
     }
-    cout << "Coversion of " << num << "is " << ans << endl;
+    cout << "Coversion of " << num << " is " << ans << endl;
 } 
 
 int main(){
-    int n=34;
+    int n;
+
+    cout << "Enter the Decimal Number:";
+    cin >> n;
 
     DectoBin(n);
 
