@@ -15,7 +15,10 @@ int BintoDec(int binNum){
 
 }
 int main(){
-    int num=100010;
-    cout << BintoDec(num) <<endl;
+    int binNum;//Eg:100010
+    cout << "Enter the Binary Number:";
+    cin  >> binNum;
+
+    cout << BintoDec(binNum) <<endl;
     return 0;
 }
